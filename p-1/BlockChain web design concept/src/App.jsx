@@ -12,8 +12,8 @@ function App() {
       <Routes>
         {/* <Route path='/login' element={<Index/>}/> */}
         <Route path="/" element={<Home/>}/>
-        <Route path="/technology" element={<Technology/>}/>
-        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/technology" element={<Home/>}/>
+        <Route path="/contact" element={<Home/>}/>
       </Routes>
     </BrowserRouter>
   )
